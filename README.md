@@ -1,8 +1,8 @@
 # ChristBASHTree
 
-You know, a Christmas tree on Bash :)
+命令行里一颗圣诞树🎄 :)
+（复制的
 
-![Screenshot](./screenshot.png?raw=true)
 
 # Usage
 
@@ -36,7 +36,7 @@ docker run -it sergiolepore/christbashtree:latest
 Git clone and execute:
 
 ```
-git clone https://github.com/sergiolepore/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
+git clone https://github.com/YHHTsunami/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
 ```
 
 __Enjoy!__
