@@ -33,7 +33,7 @@ new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
 tput cup $lin $((c - 6)); echo MERRY CHRISTMAS
-tput cup $((lin + 1)) $((c - 10)); echo And lots of CODE in $new_year
+tput cup $((lin + 1)) $((c - 10)); echo And  keep happy in $new_year
 let c++
 k=1
 
@@ -58,9 +58,9 @@ while true; do
         color=$(((color+1)%8))
         # Flashing text
         sh=1
-        for l in C O D E
+        for l in h a p p y
         do
-            tput cup $((lin+1)) $((c+sh))
+            tput cup $((lin+1)) $((c+sh-3))
             echo $l
             let sh++
             sleep 0.01
